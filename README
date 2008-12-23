@@ -1,0 +1,1 @@
+Very simple Rails plugin that adds the method 'previous_changes' to ActiveRecord objects that can be called after saving a model object to fetch what the method 'changes' would have returned just before the save occurred (a hash from attribute name to a pair of values - the old attribute value and the new attribute value).
