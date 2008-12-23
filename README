@@ -3,8 +3,9 @@ Very simple Rails plugin that adds the method 'previous_changes' to ActiveRecord
 Installation
 ------------
 
-gem install tomriley-previous_changes
+$ gem sources -a http://gems.github.com (you only have to do this once)
+$ sudo gem install tomriley-previous_changes
 
 Then add a dependency to your rails environment.rb:
 
-config.gem 'previous_changes', :lib => 'previous_changes', :version => '0.0.1'
+config.gem 'tomriley-previous_changes', :lib => 'previous_changes', :version => '0.0.1'

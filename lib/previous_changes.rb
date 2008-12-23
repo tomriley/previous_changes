@@ -15,3 +15,5 @@ module PreviousChanges
     end
   end
 end
+
+ActiveRecord::Base.class_eval { include PreviousChanges::Extensions }
